@@ -232,6 +232,7 @@ function showHomepageForm() {
 //This function is ready to be implimented when we show modern family
 function showMFForm() {
 
+    console.log("show Benefit to fit your life form");
     $("#myform").html("");
     $("#myform").alpaca({
         "view": "bootstrap-edit",
