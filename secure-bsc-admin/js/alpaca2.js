@@ -232,7 +232,6 @@ function showHomepageForm() {
 //This function is ready to be implimented when we show modern family
 function showMFForm() {
 
-    console.log("show modern family form");
     $("#myform").html("");
     $("#myform").alpaca({
         "view": "bootstrap-edit",
@@ -348,6 +347,8 @@ function showMFForm() {
                             var value = this.getValue();
                             //alert(JSON.stringify(value, null, "  "));
                             node.name = value.name;
+                            node.callout1 = value.callout1;
+                            node.callout2 = value.callout2;
                             node.accordions = value.accordions;
                             node.update().then(function () {
                                 alert("Form Submitted")
@@ -1113,8 +1114,17 @@ fl.onchange = function(e) {
         case 'xlsx':
             console.log('xlsx file type allowed');
             break;
+        case 'pptx':
+            console.log('pptx file type allowed');
+            break;
+        case 'ppt':
+            console.log('ppt file type allowed');
+            break;
+        case 'pptm':
+            console.log('pptm file type allowed');
+            break;
         default:
-            alert('Only pdf or xls/xlsx files may be uploaded');
+            alert('Pdf , ppt or xls/xlsx files may be uploaded');
             this.value = '';
     }
 };
