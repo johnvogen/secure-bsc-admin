@@ -101,7 +101,13 @@ var myData = {
     "89d455783efde8f39be7": "myResources",
     "21f5c2a082ab59f6391b": "401k-plan",
     "67a22456135d7668e21a": "fsa-hsa",
-    "5c082fcd876af82531a0": "btfyl"
+    "5c082fcd876af82531a0": "btfyl",
+    "8184e279ac830901ce15": "get_guidence",
+    "eef28cdf9d09d7856129": "consider_hsa", 
+    "4c48f584d269cf520b41":"whats_changing_2018",
+    "fbc7b6d5e481bad74ed0":"compare_medical_options",
+    "edf817b8aba85fa35469":"metlife"
+                                 
 }
 
 $("#myDropdown").alpaca({
