@@ -1,5 +1,4 @@
-﻿
-      var platform;
+﻿var platform;
 var repository;
 var branch;
 var node;
@@ -13,11 +12,6 @@ var dataSource;
 var pageIdToLoad;
 var username;
 var password;
-
-
-
-
-
 
 //Switching from local developement to production will require switching config objects
 
@@ -86,7 +80,7 @@ var myData = {
     "abc86af69ab6477794ab": "medical-hsa",
     "487777503a2025303fec": "medical-wellness",
     "f2566b4b4bd18f383249": "medical-ppo",
-    "b883c2dca4f15f11019f": "life-accident",
+    //"b883c2dca4f15f11019f": "life-accident_old",
     "ee95b728317147bb79d6": "employee-asst",
     "f5be44d832f9e77d6e85": "leave-absence",
     "7b5c1d7200327b2be55a": "index",
@@ -106,7 +100,7 @@ var myData = {
     "eef28cdf9d09d7856129": "consider_hsa", 
     "4c48f584d269cf520b41":"whats_changing_2018",
     "fbc7b6d5e481bad74ed0":"compare_medical_options",
-    "edf817b8aba85fa35469":"metlife"
+    "edf817b8aba85fa35469":"life-accident"
                                  
 }
 
